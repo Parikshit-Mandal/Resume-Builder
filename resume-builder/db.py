@@ -10,5 +10,3 @@ def get_connection():
         database=os.getenv("resume_builder"),
         cursorclass=pymysql.cursors.DictCursor
     )
-
-# mysql://root:uuxudHDYCjcYFbKiVARCCuDWvbIuFtYD@trolley.proxy.rlwy.net:19224/resume_builder
